@@ -1,6 +1,6 @@
 import torch 
 
-# creat matrix 
+# creat matrix with pytorch  !!
 
 x = torch.empty(5, 3)
 print(x)
