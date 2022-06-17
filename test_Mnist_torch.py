@@ -3,7 +3,9 @@ from torchvision import datasets
 import torch.nn.functional as F
 import  torch
 import matplotlib.pyplot as plt  
+
 # transfrom each image into tensor and normalized with mean and std 
+
 transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.1370), (0.3081))])
 Batch_size = 32
 
@@ -73,6 +75,9 @@ for batch_idx, (data, target) in enumerate(train_data):
     if it > 100: 
         break  
         
+        
+# Predictions 
+
 batch_idx, (data, target) = next(enumerate(test_data))
 data = data.view(-1, 28*28)
 output = torch.matmul(data, weights)
