@@ -1,10 +1,11 @@
 # PyTorch-tutorials
 
-# Requirements
-
-  -- pip install torch
+## Install dependencies
 
   -- pip install torchvision
 ```bash
-pip install -r requirements.txt
+pip install torch
+```
+```bash
+pip install torchvision
 ```
