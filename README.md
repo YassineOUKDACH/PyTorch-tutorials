@@ -2,7 +2,7 @@
 
 ## Install dependencies
 
-  -- pip install torchvision
+
 ```bash
 pip install torch
 ```
