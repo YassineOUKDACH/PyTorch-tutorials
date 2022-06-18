@@ -1,2 +1,2 @@
 # PyTorch-tutorials
-** pip install torch**
+## pip install torch
